@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc;
+    color: #2d3748;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.contenido {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: stretch;
+}
+
+.contenido-izq {
+    margin-top: 200px;
+    margin-right: 20px;
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 120px;
+    height: 48px;
+    
+}
+
+textarea {
+    width: 600px;
+    height: 900px;
+    padding: 16px;
+    font-size: 25px;
+    border: 1px solid #f7fafc;
+    resize: none;
+    background-color: #f7fafc;
+}
+
+.botones {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    height: 67px;
+    width: 328px;
+    flex: 1;
+    padding: 16px;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.encriptar {
+    background-color:darkblue;
+    color: #ffffff;
+}
+
+.encriptar:hover {
+    background-color: #2c5282;
+}
+
+.desencriptar {
+    background-color: #cbd5e0;
+    color: #2d3748;
+    border: 1px solid #2c5282;
+
+}
+
+.desencriptar:hover {
+    background-color: #a0aec0;
+}
+
+.aviso {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #718096;
+}
+
+.contenido-der {
+    margin-top: 20px;
+    width: 300px;
+    height: 600px;
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.sin-mensaje {
+    text-align: center;
+}
+
+.muneco {
+    width: 336px;
+    height: 304px;
+}
+
+.no-mensaje {
+    width: 336px;
+    height: 122px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+.parrafo {
+    color: #4a5568;
+}
+.rodapie {
+    background-color: #2b6cb0;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.rodapie p {
+    margin: 0;
+    font-size: 14px;
+}
