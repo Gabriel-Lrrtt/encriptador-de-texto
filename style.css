@@ -142,3 +142,67 @@ button {
     margin: 0;
     font-size: 14px;
 }
+
+/* Media Query para tablets */
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .logo {
+        width: 80px; /* Reducir el tamaño del logo */
+        height: auto;
+        margin-top: 20px;
+    }
+
+    textarea {
+        width: 90%; /* Ocupa casi todo el ancho */
+        margin: 20px 0;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .botones {
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .botones button {
+        width: 48%; /* Cada botón ocupa la mitad del espacio */
+        height: 50px;
+        margin: 5px 0;
+    }
+
+    .sin-mensaje {
+        width: 90%;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .muneco {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .rodapie {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 14px;
+        background-color: #f0f0f0;
+        position: relative;
+        bottom: 0;
+    }
+}
